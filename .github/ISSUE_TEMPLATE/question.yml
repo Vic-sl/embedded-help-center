@@ -1,5 +1,5 @@
 name: 💬 提问 / 反馈问题
-description: 提交一个 STM32 相关的问题或疑问
+description: 提交一个嵌入式相关的问题或疑问
 title: "[Question] 简要描述你的问题"
 labels: [question]
 assignees: []
