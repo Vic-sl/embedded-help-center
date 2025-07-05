@@ -1,0 +1,65 @@
+name: 💬 提问 / 反馈问题
+description: 提交一个 STM32 相关的问题或疑问
+title: "[Question] 简要描述你的问题"
+labels: [question]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        👋 感谢你的提问！请根据以下格式填写问题，我们会尽快回复你。
+
+  - type: input
+    id: summary
+    attributes:
+      label: 📌 简要问题描述
+      description: 用一句话概括你遇到的问题
+      placeholder: 例如：STM32 串口发送中文乱码
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 🧱 硬件与软件环境
+      description: 列出你使用的芯片型号、开发板、开发环境、工具链等
+      placeholder: |
+        - 芯片：STM32F103C8T6
+        - 开发板：正点原子 Mini
+        - 开发环境：STM32CubeMX + HAL + Keil5
+        - 工具链：Windows 11 + ST-Link
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: 🔍 问题现象与详细描述
+      description: 提供详细的问题复现描述、报错信息、串口输出或截图
+      placeholder: |
+        - 打开串口助手后发送中文字符，乱码
+        - 英文字符正常，使用默认 9600 波特率
+        - 设置为无校验，依旧乱码
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: 🧪 已尝试的方案
+      description: 列出你已尝试排查或更改的内容（如配置、代码、百度过的关键词等）
+      placeholder: |
+        - 尝试切换串口波特率至 115200
+        - 检查 USART 初始化代码
+        - 查找 STM32 串口中文乱码问题关键字
+    validations:
+      required: false
+
+  - type: textarea
+    id: reference
+    attributes:
+      label: 📎 参考链接（可选）
+      description: 提供你参考过的网页、文档、帖子等
+    validations:
+      required: false

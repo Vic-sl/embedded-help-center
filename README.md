@@ -1,4 +1,4 @@
-# embedded-help-center
+# embedded-help-center [中文版](./README-zh.md)
 
 This is a community Q&A and experience sharing platform for embedded developers.
 

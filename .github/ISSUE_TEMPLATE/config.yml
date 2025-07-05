@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 常见问题索引（请先查阅）
+    url: https://github.com/Vic-sl/embedded-help-center/blob/main/README.md
+    about: 请先查阅已有问题归档或使用搜索功能，避免重复提问。
