@@ -33,4 +33,4 @@
 
 别害怕提问！即使是简单的问题，我们也会认真对待，欢迎加入我们的学习旅程❤️
 
-👉 新手建议先阅读：[CONTRIBUTING.md](./CONTRIBUTING.md)
+👉 新手建议先阅读：[CONTRIBUTING-zh.md](./CONTRIBUTING-zh.md)
